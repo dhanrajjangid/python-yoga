@@ -1,6 +1,6 @@
 # app/routes/user_routes.py
 from flask import Blueprint, request, jsonify
-from controllers.user_controller import register_user, get_user
+from app.controllers.user_controller import register_user, get_user
 
 user_bp = Blueprint('user', __name__)
 

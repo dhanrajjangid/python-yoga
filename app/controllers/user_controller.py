@@ -1,6 +1,6 @@
 # app/controllers/user_controller.py
-from models.user_model import User
-from config.database import get_db_connection
+from app.models.user_model import User
+from app.config.database import get_db_connection
 
 def register_user(data):
     conn = get_db_connection()

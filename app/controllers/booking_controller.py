@@ -1,6 +1,6 @@
 # app/controllers/booking_controller.py
-from models.booking_model import Booking
-from config.database import get_db_connection
+from app.models.booking_model import Booking
+from app.config.database import get_db_connection
 
 def create_booking(data):
     conn = get_db_connection()

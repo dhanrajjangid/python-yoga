@@ -1,6 +1,6 @@
 # app/routes/booking_routes.py
 from flask import Blueprint, request, jsonify
-from controllers.booking_controller import create_booking, get_user_bookings
+from app.controllers.booking_controller import create_booking, get_user_bookings
 
 booking_bp = Blueprint('booking', __name__)
 
