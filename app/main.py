@@ -1,8 +1,8 @@
 # app/main.py
 from flask import Flask
-from routes.user_routes import user_bp
-from routes.class_routes import class_bp
-from routes.booking_routes import booking_bp
+from app.routes.user_routes import user_bp
+from app.routes.class_routes import class_bp
+from app.routes.booking_routes import booking_bp
 
 app = Flask(__name__)
 
