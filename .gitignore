@@ -1,0 +1,46 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sql
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Test data
+test_data/
+
+# Deployment files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
