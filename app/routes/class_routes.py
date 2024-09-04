@@ -1,6 +1,6 @@
 # app/routes/class_routes.py
 from flask import Blueprint, request, jsonify
-from controllers.class_controller import list_classes_by_city, add_class
+from app.controllers.class_controller import list_classes_by_city, add_class
 
 class_bp = Blueprint('class', __name__)
 
