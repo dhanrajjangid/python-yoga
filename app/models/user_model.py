@@ -8,6 +8,7 @@ class User:
             user_id = cur.fetchone()['id']
             conn.commit()
             return user_id
+        
 
     @staticmethod
     def get_user_by_id(conn, user_id):
